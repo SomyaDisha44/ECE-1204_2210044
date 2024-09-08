@@ -91,7 +91,7 @@ This code has three car classes (Car1, Car2, Car3), where the name and speed att
 <br>
 
 
-## **Problem 2 : Write a code in C++ to store and display information for ten cars, including mileage, colour, model and brand. **
+## **Problem 2 : Write a code in C++ to store and display information for ten cars, including mileage, colour, model and brand.**
 
 ## **Code :**
 ```C++
@@ -148,7 +148,67 @@ int main() {
 ![](src/Picture2.png)
 
 ## **Discussion :**
-This code has three car classes (Car1, Car2, Car3), where the name and speed attributes are private, meaning they can't be accessed directly. Public methods show() and getSpeed() are used to access the car's name and speed. In the main function, the speeds are compared, and the name of the fastest car is displayed.
+This code defines a Car class to manage and display information such as mileage, color, model, and brand for 10 cars. It collects user input for each car and then prints the details, demonstrating how to use arrays and class methods to handle multiple objects effectively.
+
+<br>
+
+## **Problem 3 : Write a code in C++ to display the details of a university student, including department, roll number, name, series, and age.**
+
+## **Code :**
+```C++
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Students {
+public:
+    string name;
+    int roll;
+    string department;
+    int series;
+    int age;
+
+    void input() {
+        cout << "Enter name: ";
+        cin >> name;
+        cout << "Enter roll: ";
+        cin >> roll;
+        cout << "Enter department: ";
+        cin >> department;
+        cout << "Enter series: ";
+        cin >> series;
+        cout << "Enter age: ";
+        cin >> age;
+    }
+
+    void display() {
+        cout << "Name: " << name << endl;
+        cout << "Roll: " << roll << endl;
+        cout << "Department: " << department << endl;
+        cout << "Series: " << series << endl;
+        cout << "Age: " << age << endl;
+    }
+};
+
+int main() {
+    Students student;
+
+    cout << "Enter details for the student:" << endl;
+    student.input();
+
+    cout << "\nStudent Information: " << endl;
+    student.display();
+
+    return 0;
+}
+```
+
+## **Output :**
+![](src/Picture3.png)
+
+## **Discussion :**
+This code defines a Car class to manage and display information such as mileage, color, model, and brand for 10 cars. It collects user input for each car and then prints the details, demonstrating how to use arrays and class methods to handle multiple objects effectively.
 
 
 
