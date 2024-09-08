@@ -8,9 +8,14 @@
 ---
 
 ## **Theory :**
-This experiment focuses on implementing object-oriented programming concepts in C++ by creating classes to manage data for cars and students. It highlights the use of access specifiers to control access to attributes and methods. Additionally, the experiment demonstrates the display and comparison of object data through method calls.
+In C++, classes are used to organize data and functions together in one place. A class is like a blueprint for creating objects, which are instances of that class. This makes the code easier to manage and reuse.
 
-## **Problem 1 : Compare the speed of three cars using access specifier**
+Access specifiers, such as private, public, and protected, control who can access the data and functions inside a class. Private means only the class itself can use that data or function, while public allows outside access. This helps protect important data and ensures it's only used in the right way.
+
+Data handling in classes happens through objects. Each object stores its own data based on the class structure, and we can use functions (called methods) inside the class to get, change, or compare that data. Using access specifiers makes sure that the data is secure and handled properly, making C++ a good choice for organizing and managing data.
+
+## **Problem 1 : Write a code in C++ to compare the speed of three cars using access specifier**
+
 ## **Code :**
 ```C++
 #include<iostream>
@@ -38,7 +43,7 @@ class Car2{
     void show(){
         cout << name << endl;
     }
-    int getSpeed ()
+    int getSpeed (){
         return speed;
     }
 };
@@ -79,6 +84,71 @@ int main(){
 ## **Output :**
 ![](src/Picture1.png)
 
+## **Discussion :**
+This code has three car classes (Car1, Car2, Car3), where the name and speed attributes are private, meaning they can't be accessed directly. Public methods show() and getSpeed() are used to access the car's name and speed. In the main function, the speeds are compared, and the name of the fastest car is displayed.
+
+
+<br>
+
+
+## **Problem 2 : Write a code in C++ to store and display information for ten cars, including mileage, colour, model and brand. **
+
+## **Code :**
+```C++
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Car {
+public:
+    int mileage;
+    string colour;
+    string model;
+    string brand;
+
+    void input() {
+        cout << "Enter mileage: ";
+        cin >> mileage;
+        cout << "Enter colour: ";
+        cin >> colour;
+        cout << "Enter model: ";
+        cin >> model;
+        cout << "Enter brand: ";
+        cin >> brand;
+    }
+
+    void display() {
+        cout << "Mileage: " << mileage << endl;
+        cout << "Colour: " << colour << endl;
+        cout << "Model: " << model << endl;
+        cout << "Brand: " << brand << endl;
+    }
+};
+
+int main() {
+    Car cars[10];
+
+    for (int i = 0; i < 10; i++) {
+        cout << "Enter details for car " << i + 1 << ":" << endl;
+        cars[i].input();
+    }
+
+    cout << "\nCar Information: " << endl;
+    for (int i = 0; i < 10; i++) {
+        cout << "Car " << i + 1 << ":" << endl;
+        cars[i].display();
+        cout << endl;
+    }
+
+    return 0;
+}
+```
+
+## **Output :**
+![](src/Picture2.png)
+
+## **Discussion :**
+This code has three car classes (Car1, Car2, Car3), where the name and speed attributes are private, meaning they can't be accessed directly. Public methods show() and getSpeed() are used to access the car's name and speed. In the main function, the speeds are compared, and the name of the fastest car is displayed.
 
 
 
