@@ -12,7 +12,7 @@ This experiment focuses on implementing object-oriented programming concepts in 
 
 ## **Problem 1 : Compare the speed of three cars using access specifier**
 ## **Code :**
-```C
+```C++
 #include<iostream>
 #include<string>
 using namespace std;
@@ -77,6 +77,7 @@ int main(){
 ```
 
 ## **Output :**
+![](image/Picture1.png)
 
 
 
