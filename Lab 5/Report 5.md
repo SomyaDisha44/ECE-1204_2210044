@@ -208,7 +208,13 @@ int main() {
 ![](src/Picture3.png)
 
 ## **Discussion :**
-This code defines a Car class to manage and display information such as mileage, color, model, and brand for 10 cars. It collects user input for each car and then prints the details, demonstrating how to use arrays and class methods to handle multiple objects effectively.
+This code defines a Students class to manage and display information such as name, roll number, department, series, and age for a student. It collects user input for these attributes and then prints the details, demonstrating how to use class methods to handle object data effectively.
+
+<br>
+
+## **Conclusion :**
+These codes show different uses of classes in C++. The first code uses access specifiers to keep car attributes private and uses public methods to find the fastest car. The second and third codes handle and display information for multiple cars and a single student, demonstrating how to use arrays and class methods to manage data.
+
 
 
 
