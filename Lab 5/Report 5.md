@@ -38,7 +38,7 @@ class Car2{
     void show(){
         cout << name << endl;
     }
-    int getSpeed (){
+    int getSpeed ()
         return speed;
     }
 };
@@ -77,7 +77,7 @@ int main(){
 ```
 
 ## **Output :**
-![](image/Picture1.png)
+![](src/Picture1.png)
 
 
 
