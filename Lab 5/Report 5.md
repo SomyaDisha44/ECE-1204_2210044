@@ -8,11 +8,13 @@
 ---
 
 ## **Theory :**
+<div align="justify">
 In C++, classes are used to organize data and functions together in one place. A class is like a blueprint for creating objects, which are instances of that class. This makes the code easier to manage and reuse.
 
 Access specifiers, such as private, public, and protected, control who can access the data and functions inside a class. Private means only the class itself can use that data or function, while public allows outside access. This helps protect important data and ensures it's only used in the right way.
 
 Data handling in classes happens through objects. Each object stores its own data based on the class structure, and we can use functions (called methods) inside the class to get, change, or compare that data. Using access specifiers makes sure that the data is secure and handled properly, making C++ a good choice for organizing and managing data.
+</div>
 
 ## **Problem 1 : Write a code in C++ to compare the speed of three cars using access specifier**
 
@@ -82,11 +84,14 @@ int main(){
 ```
 
 ## **Output :**
-![](src/Picture1.png)
+<p align="center">
+  <img src="src/Picture1.png" alt="Description of Picture1" width="500" height="200">
+</p>
 
 ## **Discussion :**
+<div align="justify">
 This code has three car classes (Car1, Car2, Car3), where the name and speed attributes are private, meaning they can't be accessed directly. Public methods show() and getSpeed() are used to access the car's name and speed. In the main function, the speeds are compared, and the name of the fastest car is displayed.
-
+</div>
 
 <br>
 
@@ -145,11 +150,15 @@ int main() {
 ```
 
 ## **Output :**
-![](src/Picture2.png)
+<p align="center">
+  <img src="src/Picture2.png" alt="Description of Picture2" width="500" height="400">
+</p>
+
 
 ## **Discussion :**
+<div align="justify">
 This code defines a Car class to manage and display information such as mileage, color, model, and brand for 10 cars. It collects user input for each car and then prints the details, demonstrating how to use arrays and class methods to handle multiple objects effectively.
-
+</div>div>
 <br>
 
 ## **Problem 3 : Write a code in C++ to display the details of a university student, including department, roll number, name, series, and age.**
@@ -205,11 +214,15 @@ int main() {
 ```
 
 ## **Output :**
-![](src/Picture3.png)
+<p align="center">
+  <img src="src/Picture3.png" alt="Description of Picture3" width="500" height="400">
+</p>
+
 
 ## **Discussion :**
+<div align="justify">
 This code defines a Students class to manage and display information such as name, roll number, department, series, and age for a student. It collects user input for these attributes and then prints the details, demonstrating how to use class methods to handle object data effectively.
-
+</div>
 <br>
 
 ## **Conclusion :**
