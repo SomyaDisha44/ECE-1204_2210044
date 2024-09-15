@@ -44,9 +44,14 @@ _**Heaven’s Light is Our Guide**_
 ---
 </div>
 
+<div align="center">
+  
 ## INDEX:
 
 | Lab No. | Title | Link |
 | :---: | :---: | :---: |
 | 01 | Implementation of Classes, Access Specifiers, and Data Handling in C++ | [Lab 05](https://github.com/SomyaDisha44/ECE-1204_2210044/blob/main/Lab%205/Report%205.md)
-| 02 | I | [L]
+| 02 | Implementation of Friend Funcition for data management in C++ | [Lab 06](https://github.com/SomyaDisha44/ECE-1204_2210044/blob/main/Lab%206/Report%206.md)
+
+</div>
+
