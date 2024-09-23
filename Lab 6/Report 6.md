@@ -15,7 +15,7 @@ The primary advantage of friend functions is their ability to perform operations
 </div>
 
 ## **Problem:**
-**Create a C++ program that features three Student classes with private members for Name, Roll, and Marks. <br> a. Input data for three students and display their details. <br> b. Compare the marks to identify the student with the highest and lowest marks, displaying their roll numbers accordingly and compute the average marks of all three students. <br> c. Define a friend function named Teacher that will access the private data of the Student class.**
+Create a C++ program that features three Student classes with private members for Name, Roll, and Marks. <br> a. Input data for three students and display their details. <br> b. Compare the marks to identify the student with the highest and lowest marks, displaying their roll numbers accordingly and compute the average marks of all three students. <br> c. Define a friend function named Teacher that will access the private data of the Student class.
 
 ## **Code :**
 ```C++
