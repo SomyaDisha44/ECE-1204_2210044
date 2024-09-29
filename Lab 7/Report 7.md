@@ -90,14 +90,16 @@ int main() {
 
 ## **Output :**
 <p align="center">
-<img width="500" height="230" alt="Screenshot 2024-09-29 at 11 19 57 PM" src="https://github.com/user-attachments/assets/e0f2c3e6-3385-47d8-b1a9-1175db05136c">
+<img width="500" height="180" alt="Screenshot 2024-09-29 at 11 19 57 PM" src="https://github.com/user-attachments/assets/e0f2c3e6-3385-47d8-b1a9-1175db05136c">
 </p>
 
-## **Discussion and Conclusion :**
+## **Discussion :**
 <div align="justify">
 At first, I solved the problem by assuming that all months have 30 days and didn’t think about leap years. This worked for some dates but gave wrong results for months like February or months with 31 days. To fix this, I changed the program to check the number of days in each month and added a check for leap years in February. Now, the program correctly checks if the date is valid, making it more accurate.
 </div>
 
+<br>
+
 ## **Problem 6:**
 Write a program in C++ to display the first n terms of the Fibonacci series by using OOP concept.
 
@@ -142,16 +144,19 @@ int main() {
 
 ## **Output :**
 <p align="center">
-<img width="500" height="230" alt="Screenshot 2024-09-29 at 11 39 40 PM" src="https://github.com/user-attachments/assets/1daec2dc-a3dc-47c1-9e8a-401588c1cb0d">
+<img width="500" height="145" alt="Screenshot 2024-09-29 at 11 39 40 PM" src="https://github.com/user-attachments/assets/1daec2dc-a3dc-47c1-9e8a-401588c1cb0d">
 </p>
 
-## **Discussion and Conclusion :**
+## **Discussion :**
 <div align="justify">
 This C++ program uses object-oriented programming (OOP) to show the Fibonacci series. It has a class called Fibonacci with a variable n that holds the number of terms. The constructor sets n, and the printSeries() method calculates and prints the Fibonacci numbers. This approach keeps the code organized and allows for creating multiple objects with different values while using simple OOP concepts.
 </div>
 
-## **Problem 6:**
-Write a program in C++ to display the first n terms of the Fibonacci series by using OOP concept.
+<br>
+
+
+## **Problem 7:**
+Write a program in C++ to display the pattern like right angle triangle with number.
 
 ## **Code :**
 
@@ -159,47 +164,44 @@ Write a program in C++ to display the first n terms of the Fibonacci series by u
 #include <iostream>
 using namespace std;
 
-class Fibonacci {
-    int n; 
+class Triangle {
 public:
-    Fibonacci(int num) {
-        n = num;
-    }
+    int n; 
+    
+    void display() {
+        
+        cout << "Enter the number of rows: ";
+        cin >> n;
 
-    void printSeries() {
-        int a = 0, b = 1, next;
         for (int i = 1; i <= n; i++) {
-            cout << a << " ";
-            next = a + b;
-            a = b;
-            b = next;
+            for (int j = 1; j <= i; j++) {
+                cout << j; 
+            }
+            cout << endl;
         }
     }
 };
 
 int main() {
-    int num;
-
-    cout << "Enter the number of terms: ";
-    cin >> num;
-
-    Fibonacci f(num);
-
-    f.printSeries();
-
+    Triangle r; 
+    r.display(); 
     return 0;
 }
-
 ```
 
 ## **Output :**
 <p align="center">
-<img width="500" height="230" alt="Screenshot 2024-09-29 at 11 39 40 PM" src="https://github.com/user-attachments/assets/1daec2dc-a3dc-47c1-9e8a-401588c1cb0d">
+<img width="500" height="230" alt="Screenshot 2024-09-29 at 11 49 53 PM" src="https://github.com/user-attachments/assets/6545f005-69dd-4522-8d86-ab3bf507f4b1">
 </p>
 
-## **Discussion and Conclusion :**
+## **Discussion :**
 <div align="justify">
-This C++ program uses object-oriented programming (OOP) to show the Fibonacci series. It has a class called Fibonacci with a variable n that holds the number of terms. The constructor sets n, and the printSeries() method calculates and prints the Fibonacci numbers. This approach keeps the code organized and allows for creating multiple objects with different values while using simple OOP concepts.
+This C++ program defines a class called Triangle that prints a right-angle triangle of numbers. The user inputs the number of rows, and the display() method uses nested loops to print numbers from 1 to the current row. It’s a simple example of object-oriented programming, making it easy to understand how classes and methods work.
+</div>
+
+## **Conclusion :**
+<div align="justify">
+In summary, the discussions explain how a date validation program was improved by checking the correct number of days in each month and accounting for leap years. Additionally, two C++ programs use object-oriented programming (OOP): one shows the Fibonacci series and the other prints a right-angle triangle of numbers. Both examples demonstrate how classes and methods help organize the code and make it easier to use.
 </div>
 
 
