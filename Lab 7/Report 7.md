@@ -202,6 +202,8 @@ This C++ program defines a class called Triangle that prints a right-angle trian
 ## **Conclusion :**
 <div align="justify">
 In summary, the discussions explain how a date validation program was improved by checking the correct number of days in each month and accounting for leap years. Additionally, two C++ programs use object-oriented programming (OOP): one shows the Fibonacci series and the other prints a right-angle triangle of numbers. Both examples demonstrate how classes and methods help organize the code and make it easier to use.
+
+This report starts from Problem 5, following the completion of four previous problems in the lab, which are not included in this report as per instructions. 
 </div>
 
 
