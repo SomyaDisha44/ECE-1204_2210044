@@ -53,6 +53,7 @@ _**Heaven’s Light is Our Guide**_
 | 01 | Implementation of Classes, Access Specifiers, and Data Handling in C++ | [Lab 05](https://github.com/SomyaDisha44/ECE-1204_2210044/blob/main/Lab%205/Report%205.md)
 | 02 | Implementation of Friend Funcition for data management in C++ | [Lab 06](https://github.com/SomyaDisha44/ECE-1204_2210044/blob/main/Lab%206/Report%206.md)
 | 03 | Implementation of C++ Classes and Object-Oriented Programming Concepts | [Lab 07](https://github.com/SomyaDisha44/ECE-1204_2210044/blob/main/Lab%207/Report%207.md)
+| 04 | Implementation of Object-Oriented Programming in Array and Conditional Logic. | [Lab 08](https://github.com/SomyaDisha44/ECE-1204_2210044/blob/main/Lab%208/Report%208.md)
 
 </div>
 
