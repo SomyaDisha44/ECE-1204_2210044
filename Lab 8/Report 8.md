@@ -73,7 +73,8 @@ int main() {
 
 ## **Output :**
 <p align="center">
-<img width="500" height="200" alt="Screenshot 2024-09-29 at 11 49 53 PM" src="https://github.com/user-attachments/assets/d8c5c8d9-8406-4731-88d3-797a9aadd3ad">
+<img width="500" height="180" alt="Screenshot 2024-10-07 at 12 18 25 AM" src="https://github.com/user-attachments/assets/216b9872-6013-43a1-bb00-18dbe68ddcbf">
+
 </p>
 
 ## **Discussion :**
