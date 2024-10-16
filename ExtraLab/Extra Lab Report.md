@@ -70,7 +70,7 @@ int main() {
 
 ## **Output :**
 <p align="center">
-<img width="472" height="220" alt="Screenshot 2024-10-16 at 7 43 01 PM" src="https://github.com/user-attachments/assets/a4767676-caba-445d-868a-a32fa8217980">
+<img width="472" height="300" alt="Screenshot 2024-10-16 at 7 43 01 PM" src="https://github.com/user-attachments/assets/a4767676-caba-445d-868a-a32fa8217980">
 </p>
 
 ## **Discussion :**
@@ -270,7 +270,7 @@ int main() {
 
 ## **Output :**
 <p align="center">
-<img width="472" height="250" alt="Screenshot 2024-10-16 at 8 08 04 PM" src="https://github.com/user-attachments/assets/5e11d2c6-fac1-4f0b-878e-1619cea347f0">
+<img width="472" height="280" alt="Screenshot 2024-10-16 at 8 08 04 PM" src="https://github.com/user-attachments/assets/5e11d2c6-fac1-4f0b-878e-1619cea347f0">
 </p>
 
 ## **Discussion :**
@@ -370,7 +370,7 @@ int main() {
 
 ## **Output :**
 <p align="center">
-<img width="472" height="350" alt="Screenshot 2024-10-16 at 8 17 14 PM" src="https://github.com/user-attachments/assets/6573a287-d740-4290-b0d3-c4cb4dfaf847">
+<img width="472" height="380" alt="Screenshot 2024-10-16 at 8 17 14 PM" src="https://github.com/user-attachments/assets/6573a287-d740-4290-b0d3-c4cb4dfaf847">
 </p>
 
 ## **Discussion :**
@@ -650,7 +650,7 @@ int main() {
 
 ## **Output :**
 <p align="center">
-<img width="472" height="150" alt="Screenshot 2024-10-16 at 8 55 35 PM" src="https://github.com/user-attachments/assets/1b1d43c9-4031-4a33-b22a-d46e793d15c8">
+<img width="472" height="180" alt="Screenshot 2024-10-16 at 8 55 35 PM" src="https://github.com/user-attachments/assets/1b1d43c9-4031-4a33-b22a-d46e793d15c8">
 </p>
 
 ## **Discussion :**
@@ -754,7 +754,7 @@ int main() {
 
 ## **Output :**
 <p align="center">
-<img width="472" height="300" alt="Screenshot 2024-10-16 at 9 07 29 PM" src="https://github.com/user-attachments/assets/aaf53f81-387d-41b7-abbe-f562cc58cf18">
+<img width="472" height="350" alt="Screenshot 2024-10-16 at 9 07 29 PM" src="https://github.com/user-attachments/assets/aaf53f81-387d-41b7-abbe-f562cc58cf18">
 </p>
 
 ## **Discussion :**
@@ -886,7 +886,7 @@ int main() {
 
 ## **Output :**
 <p align="center">
-<img width="472" height="120" alt="Screenshot 2024-10-16 at 9 24 10 PM" src="https://github.com/user-attachments/assets/17968fa9-93ce-454b-a4b8-be41f2432b1b">
+<img width="472" height="160" alt="Screenshot 2024-10-16 at 9 24 10 PM" src="https://github.com/user-attachments/assets/17968fa9-93ce-454b-a4b8-be41f2432b1b">
 </p>
 
 
@@ -983,7 +983,7 @@ int main() {
 
 ## **Output :**
 <p align="center">
-<img width="472" height="250" alt="Screenshot 2024-10-16 at 9 31 58 PM" src="https://github.com/user-attachments/assets/a7491dc7-c0d0-4729-a835-9bf707b5d9c5">
+<img width="472" height="300" alt="Screenshot 2024-10-16 at 9 31 58 PM" src="https://github.com/user-attachments/assets/a7491dc7-c0d0-4729-a835-9bf707b5d9c5">
 </p>
 
 
@@ -1066,7 +1066,7 @@ int main() {
 
 ## **Output :**
 <p align="center">
-<img width="472" height="250" alt="Screenshot 2024-10-16 at 10 03 15 PM" src="https://github.com/user-attachments/assets/262e026c-564e-4df2-ab37-7ba684899b7d">
+<img width="472" height="300" alt="Screenshot 2024-10-16 at 10 03 15 PM" src="https://github.com/user-attachments/assets/262e026c-564e-4df2-ab37-7ba684899b7d">
 </p>
 
 
